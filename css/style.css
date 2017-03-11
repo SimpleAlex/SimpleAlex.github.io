@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Exo");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Exo', sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+::-moz-selection {
+  background: #47bf9b; }
+
+::selection {
+  background: #47bf9b; }
+
+html, body {
+  background: linear-gradient(to right, #E75A7C, #141B41);
+  background-size: cover;
+  height: 100%; }
+
+.header {
+  text-align: center; }
+  .header .image .avatar {
+    width: 256px;
+    margin-top: 50px;
+    border: #df4e4e 10px solid;
+    border-radius: 50%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .header .image .name {
+    color: #f1c40f;
+    font-weight: bold;
+    letter-spacing: .1em; }
+  .header .image .job {
+    color: #fff;
+    font-size: 1.2em; }
+  .header .social-media {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+    .header .social-media .fa-behance {
+      color: #fff;
+      font-size: 2em;
+      margin-left: 10px;
+      padding: 10px;
+      transition: 300ms; }
+      .header .social-media .fa-behance:hover {
+        color: #1769FF;
+        text-decoration: none;
+        transition: 300ms; }
+    .header .social-media .fa-codepen {
+      color: #fff;
+      font-size: 2em;
+      margin-left: 10px;
+      padding: 10px;
+      transition: 300ms; }
+      .header .social-media .fa-codepen:hover {
+        color: #212129;
+        text-decoration: none;
+        transition: 300ms; }
+    .header .social-media .fa-twitter {
+      color: #fff;
+      font-size: 2em;
+      margin-left: 10px;
+      padding: 10px;
+      transition: 300ms; }
+      .header .social-media .fa-twitter:hover {
+        color: #1DA1F2;
+        text-decoration: none;
+        transition: 300ms; }
+    .header .social-media .fa-google-plus {
+      color: #fff;
+      font-size: 2em;
+      margin-left: 10px;
+      padding: 10px;
+      transition: 300ms; }
+      .header .social-media .fa-google-plus:hover {
+        color: #E04C40;
+        text-decoration: none;
+        transition: 300ms; }
+    .header .social-media .fa-instagram {
+      color: #fff;
+      font-size: 2em;
+      margin-left: 10px;
+      transition: 300ms; }
+      .header .social-media .fa-instagram:hover {
+        color: #527EA3;
+        text-decoration: none;
+        transition: 300ms; }
